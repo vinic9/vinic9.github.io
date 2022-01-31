@@ -1,0 +1,14 @@
+body{
+    color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 10%;
+    text-align: justify;
+    width: 80%;
+    background-color: rgb(20,20,125);
+}
+
+footer{
+    position: fixed;
+    bottom: 5%;
+}
