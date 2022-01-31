@@ -2,7 +2,7 @@ body{
     color: lightgrey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
-    left: 10%;
+    left: 8%;
     text-align: justify;
     width: 80%;
     background-color: rgb(20,20,125);
@@ -11,4 +11,8 @@ body{
 footer{
     position: fixed;
     bottom: 5%;
+}
+
+link:active{
+    color: lime;
 }
