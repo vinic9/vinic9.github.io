@@ -16,7 +16,8 @@ body{
 .bordap{
     background-color: rgb(255, 244, 244, 0.9);
     border: solid 1px snow ;
-    padding:0.2%;
+    margin: 2% 0% 0% 0%;
+    padding:0% 0.2% 0% 0.2%;
     border-radius: 4px;
 }
 
