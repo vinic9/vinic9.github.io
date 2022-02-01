@@ -3,22 +3,22 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     left: 8%;
-    text-align: justify;
     width: 80%;
-    background-color: rgb(20,20,125);
+    text-align: justify;
+}
+.background{
+
+    background-image: linear-gradient(-180deg, rgb(22, 76, 121), rgb(26, 26, 77));
+    background-size: cover;
 }
 
 .borda{
-    background-color: snow;
-    border: solid 2px snow ;
+    background-color: rgb(255, 244, 244, 0.9);
+    border: solid 1px snow ;
     border-radius: 5%;
 }
 
 footer{
-    position: fixed;
+    position: static;
     bottom: 5%;
-}
-
-link:active{
-    color: lime;
 }
