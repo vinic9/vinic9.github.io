@@ -11,3 +11,11 @@
     text-align:start;
     color: darkslateblue;
 }  
+
+table, th, td {
+    border: 1px solid;
+  }
+
+#table1{
+    border-collapse:collapse;
+}
