@@ -16,7 +16,8 @@ body{
 .bordap{
     background-color: rgb(255, 244, 244, 0.9);
     border: solid 1px snow ;
-    border-radius: 2px;
+    padding:0.2%;
+    border-radius: 4px;
 }
 
 footer{
@@ -24,6 +25,6 @@ footer{
     bottom: 5%;
 }
 
-link{
+#link{
     text-decoration: none;
 }
