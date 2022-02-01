@@ -11,7 +11,7 @@ body{
 .borda{
     background-color: snow;
     border: solid 2px snow ;
-    border-radius: 8%;
+    border-radius: 5%;
 }
 
 footer{
