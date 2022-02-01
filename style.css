@@ -14,7 +14,7 @@ body{
 }
 
 #Linkedin{
-    background-image: linear-gradient( snow,rgb(51, 98, 226) );
+    background-image: linear-gradient( lightgrey,slategrey );
     border: solid 1px snow;
     margin: 2% 0% 0% 0%;
     padding:0% 0.2% 0% 0.2%;
