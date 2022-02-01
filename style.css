@@ -13,19 +13,33 @@ body{
     background-size: cover;
 }
 
-.bordap{
-    background-color: rgb(255, 244, 244, 0.9);
-    border: solid 1px snow ;
+#Linkedin{
+    background-image: linear-gradient( snow,rgb(51, 98, 226) );
+    border: solid 1px snow;
     margin: 2% 0% 0% 0%;
     padding:0% 0.2% 0% 0.2%;
     border-radius: 4px;
 }
 
+#Instagram{
+    background-image: linear-gradient(to bottom, orange ,rgb(248, 9, 248));
+    border: solid 1px snow;
+    margin: 2% 0% 0% 0%;
+    padding:0% 0.2% 0% 0.2%;
+    border-radius: 4px;
+}
+
+.newpage{
+    background-color: snow;
+    border: solid 1px snow;
+    margin: 2% 0% 0% 0%;
+    padding:0% 0.2% 0% 0.2%;
+    border-radius: 4px;
+
+}
+
+
 footer{
     position: static;
     bottom: 5%;
-}
-
-#link{
-    text-decoration: none;
 }
