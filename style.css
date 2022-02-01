@@ -1,24 +1,29 @@
 body{
     color: lightgrey;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     position: relative;
     left: 8%;
     width: 80%;
     text-align: justify;
 }
 .background{
-
     background-image: linear-gradient(-180deg, rgb(22, 76, 121), rgb(26, 26, 77));
     background-size: cover;
 }
 
-.borda{
+.bordap{
     background-color: rgb(255, 244, 244, 0.9);
     border: solid 1px snow ;
-    border-radius: 5%;
+    border-radius: 2px;
 }
 
 footer{
     position: static;
     bottom: 5%;
+}
+
+link{
+    text-decoration: none;
 }
