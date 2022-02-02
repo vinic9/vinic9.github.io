@@ -21,17 +21,17 @@
     <main>
         
         <section>
-            
+            <h2>Form selection of social media.</h2>
             <fieldset>
-                <div>
+                <div id="username">
                     <label for="username"><strong>Username</strong></label>
                     <input type="text" name="nome" required>
                 </div>
-                <div>
+                <div id="email">
                     <label for="email"><strong>E-mail</strong></label>
                     <input type="email" name="email" required>
                 </div>
-                <div>
+                <div id="checkbox">
                     <label for="social_media"><strong>Social's</strong></label>
                     <input type="checkbox" name="sm1" value="reddit" >
                     <label for="social_media">reddit</label>
@@ -43,8 +43,14 @@
                     <label for="social_media">instagram</label>
                 </div>
 
-                    <div>
-                    <input type="button" name="submit">
+                <label for="textarea">Why your like this social media</label>
+                
+                <div>
+                  <textarea name="textarea" id="textarea" rows="5" cols="55" rows="10" required> </textarea>
+                </div>
+                
+                <div>
+                    <button type="submit" id="button" >Submit</button>
                 </div>
             
             
