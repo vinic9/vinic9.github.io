@@ -1,0 +1,28 @@
+
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+   
+}
+
+.background{
+        background-color: rgb(197, 197, 197);
+        background-size: cover;
+}
+.borda{
+    border: snow solid 1px;
+    border-radius: 2px;
+
+    padding: 1px;
+}
+
+nav{
+    position: static;
+    top: 5%;
+}
+#fixed{
+    position: fixed;
+    bottom: 5%;
+
+}
