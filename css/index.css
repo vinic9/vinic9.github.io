@@ -13,6 +13,18 @@ body{
     background-size: cover;
 }
 
+
+.newpage{
+    box-shadow: 1px 2px 5px black;
+    background-color: snow;
+    border: solid 1px snow;
+    margin: 2% 0% 0% 0%;
+    padding:0% 0.2% 0% 0.2%;
+    border-radius: 4px;
+
+}
+
+
 #Linkedin{
     background-image: linear-gradient( lightgrey,slategrey );
     border: solid 1px snow;
@@ -29,21 +41,8 @@ body{
     border-radius: 4px;
 }
 
-.newpage{
-    background-color: snow;
-    border: solid 1px snow;
-    margin: 2% 0% 0% 0%;
-    padding:0% 0.2% 0% 0.2%;
-    border-radius: 4px;
-
-}
-
 
 footer{
     position: static;
     bottom: 5%;
-}
-
-#image_folder1{
-    list-style-image: url(/img/Folder0000.png);
 }

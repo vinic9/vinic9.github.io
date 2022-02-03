@@ -12,7 +12,7 @@
 <body class="background">
     
     <header>
-        <nav class="borda"> <a href="index.html"><small>home</small></a> </nav>
+        <nav> <a href="index.html"><small>home</small></a> </nav>
         
         <h1>Form</h1>
         <hr>
@@ -20,10 +20,13 @@
     
     <main>
         
-        <section>
+        <section id="input.transform">
+
             <h2>Form selection of social media.</h2>
-            <fieldset>
-                <div id="username">
+            
+            <fieldset id="campo">
+                <form action="" method="post">
+                <div id="input">
                     <label for="username"><strong>Username</strong></label>
                     <input type="text" name="nome" required>
                 </div>
@@ -42,17 +45,26 @@
                     <input type="checkbox" name="sm4" value="instagram">
                     <label for="social_media">instagram</label>
                 </div>
+                <div>
+                    <label for="selection">Best activity</label>
+                    <select name="select" id="select">
+                        <option selected disabled value="">Select</option>
+                        <option>Within the community</option>
+                        <option>Community manegement</option>
+                    </select>
+                </div>
 
-                <label for="textarea">Why your like this social media</label>
+                
+                <label for="textarea">Why you like this social media?</label>
                 
                 <div>
                   <textarea name="textarea" id="textarea" rows="5" cols="55" rows="10" required> </textarea>
                 </div>
                 
                 <div>
-                    <button type="submit" id="button" >Submit</button>
+                    <button type="submit" >Submit</button>
                 </div>
-            
+            </form>
             
             </fieldset>
 
@@ -63,10 +75,9 @@
     <footer>
 
         
-        <span class="borda" id="fixed">
+        <span class="campo" id="links">
 
-            <small>por Βηνισιους.</small>
-            <small>Contatos</small>
+            <small>Βηνισιους,Contatos</small>
             <a href="https://www.linkedin.com/in/vrma2022" target="#_blank"> <small id="Linkedin">Linkedin</small></a>
             <a href="https://www.instagram.com/finicv_art/" target="#_blank"><small id="Instagram">Instagram</small></a>
         
