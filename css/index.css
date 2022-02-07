@@ -1,18 +1,27 @@
 body{
-    color: lightgrey;
-    font-family:
-    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    color: rgb(255, 255, 255);
+    font-family: monospace;
     position: relative;
-    left: 8%;
-    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 50%;
     text-align: justify;
-}
-.background{
-        background: -webkit-linear-gradient( bottom right, rgb(8, 49, 83), rgb(14, 14, 83));
-        background-size: cover;
+    
 }
 
+.background{
+    background: -webkit-linear-gradient(top left, rgb(58, 45, 121), rgb(19, 18, 29))fixed;
+    background-size: cover;
+}
+
+#content{
+    border: solid 0px;
+    border-radius: 4px;
+    background-color: slateblue;
+
+    margin: 6px;
+    padding: 10px;
+}
 
 .newpage{
     box-shadow: 1px 2px 2px black;
@@ -24,34 +33,37 @@ body{
 
 }
 
-#navbar{
-    border:solid 0px;
+.navlist{
+    box-shadow: 1px 2px 2px black;
+    background-color: slateblue;
+    margin: 2% 0% 1% 0%;
+    padding: 2px 10px 10px 10px;
     border-radius: 4px;
-    background-color: rgb(8, 49, 83, 0.2);
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-bottom: 8px;
-    box-shadow: black 0px 1px 2px;
+
 }
 
-#Linkedin{
-    background-image: linear-gradient( lightgrey,slategrey );
-    border: solid 1px snow;
-    margin: 2% 0% 0% 0%;
-    padding:0% 0.2% 0% 0.2%;
-    border-radius: 4px;
-}
 
-#Instagram{
-    background-image: linear-gradient(to bottom, orange ,rgb(248, 9, 248));
-    border: solid 1px snow;
-    margin: 2% 0% 0% 0%;
-    padding:0% 0.2% 0% 0.2%;
-    border-radius: 4px;
-}
+#contatos{
+    position: relative;
+    display: inline;
+    right: -88%;
 
+    
+}
 
 footer{
     position: static;
     bottom: 5%;
+}
+
+
+td{
+    box-shadow: 1px 2px 2px black;
+    background-color: yellowgreen;
+    border-radius: 4px;
+    border-collapse: collapse;
+    padding: 0px 10px 0px 10px;
+    
+    margin-bottom: 15px;
+  
 }
