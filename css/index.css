@@ -5,8 +5,8 @@ body{
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 65%;
     text-align: justify;
+    width: 94%;
     
 }
 
@@ -64,7 +64,6 @@ td{
     border-radius: 2px;
     border-collapse: collapse;
     padding: 0px 10px 0px 10px;
-    
-    margin-bottom: 15px;
+
   
 }
