@@ -11,7 +11,7 @@ body{
 
 .background{
     background: -webkit-linear-gradient(top left, rgb(58, 45, 121), rgb(19, 18, 29))fixed;
-    background-size: cover;
+
 }
 
 #content{
