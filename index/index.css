@@ -59,8 +59,15 @@ body{
     text-align: justify;
 }
 
+.fieldfoot{
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+}
+
 .r-img{
     border-radius: 6px;
+    border: 1px dotted snow;
     
 }
 
