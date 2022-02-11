@@ -1,8 +1,29 @@
 body{
-    font-family: 'Nsimsun', Courier, monospace;
-    background: -webkit-linear-gradient(red,blue)fixed;
+    color: rgb(190, 190, 220);
+    font-family: 'nsimsun';
+
+    background-color: rgb(40, 38, 51);
 
 }
 
+.section1{
+    align-self: start;
+    display: flex;
+}
 
-.field
+.section2{
+    display: flex;
+
+}
+div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    border: solid 1px rgb(190, 190, 220);
+
+
+}
