@@ -1,72 +1,74 @@
 body{
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.87);
+    font-family:  'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    text-align: justify;
-    width: 94%;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+
 }
+
 
 .background{
     background: -webkit-linear-gradient(top left, rgb(58, 45, 121), rgb(19, 18, 29))fixed;
 
 }
 
-#content{
-    border: solid 0px;
-    border-radius: 2px;
+
+
+.field,table{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid ;
+    border-radius: 5px;
     background-color: slateblue;
+    box-shadow: 1px 2px 2px rgb(20, 11, 36);
+    
+    padding-left: 1px;
+    padding-right: 1px;
 
-    margin: 6px;
-    padding: 10px;
-}
-
-.newpage{
-    box-shadow: 1px 2px 2px black;
-    background-color: snow;
-    border: solid 1px snow;
-    margin: 2% 0% 0% 0%;
-    padding:0% 0.2% 0% 0.2%;
-    border-radius: 2px;
-
-}
-
-.navlist{
-    box-shadow: 1px 2px 2px black;
-    background-color: slateblue;
-    margin: 2% 0% 1% 0%;
-    padding: 2px 10px 10px 10px;
-    border-radius: 2px;
-
-}
-
-
-#contatos{
-    position: relative;
-    display: inline;
-    right: -88%;
-
+    text-align: justify;
     
 }
 
-footer{
-    position: static;
-    bottom: 5%;
+.button{
+    border: 0px solid;
+    border-radius: 5px;
+    padding-right: 5px;
+    background-color: slateblue;
+    box-shadow: 1px 1px 2px rgb(20, 11, 36);
 }
 
 
-td{
-    box-shadow: 1px 2px 2px black;
-    background-color: yellowgreen;
-    border-radius: 2px;
-    border-collapse: collapse;
-    padding: 0px 10px 0px 10px;
+.field_det{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    border: 0px;
+    border-radius: 5px;
+    background-color: slateblue;
+    box-shadow: 1px 1px 2px rgb(20, 11, 36);
+    
+    padding-left: 2px;
+    padding-right: 1px;
+    padding-bottom: 3px;
 
-  
+    text-align: justify;
 }
-.round{
-    border: 2px solid snow;
-    border-radius: 2px;
+
+.r-img{
+    border-radius: 6px;
+    
+}
+
+a:link{
+    color: rgb(229, 224, 255);
+
+}
+
+a:visited{
+    color: rgb(177, 155, 255);
 }
