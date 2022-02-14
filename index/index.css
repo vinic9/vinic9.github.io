@@ -40,6 +40,8 @@ body{
     border: 0px solid;
     border-radius: 5px;
     padding-right: 5px;
+    margin-left: 30px;
+
     background-color: slateblue;
     box-shadow: 1px 1px 2px rgb(20, 11, 36);
 }
@@ -64,7 +66,7 @@ body{
 .fieldfoot{
    position:absolute;
    right: -1%;
-   bottom:  -20%;
+   bottom:  -10%;
 }
 
 
