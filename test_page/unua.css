@@ -15,7 +15,7 @@ body{
     display: flex;
 
 }
-div{
+.flexdiv{
 
     display: flex;
     justify-content: center;
@@ -26,4 +26,24 @@ div{
     border: solid 1px rgb(190, 190, 220);
 
 
+}
+
+.grid-cntnr{
+
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column: 1 / 2;
+    justify-content: space-around;
+    align-content: end;
+
+
+
+}
+
+.gbox{
+    border: 1px solid green;
+    border-collapse: collapse;
+    color: snow;
+    margin: 10px;
 }
