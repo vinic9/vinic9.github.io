@@ -1,7 +1,7 @@
 body{
     color: rgba(255, 255, 255, 0.87);
     font-family:  'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     position: fixed;
     left: 2%;
     right: 2%;
@@ -31,6 +31,7 @@ body{
     padding-right: 1px;
 
     text-align: justify;
+
     
 }
 
@@ -79,3 +80,51 @@ a:link{
 a:visited{
     color: rgb(177, 155, 255);
 }
+
+a:hover{
+    color: lightgrey;
+    transition: 200ms ease;
+}
+#open-up{
+    
+    animation-name: open-up;
+    animation-duration: 1s;
+
+}
+
+
+@keyframes open-up{
+    0%{
+        transform: translate(-100%)
+
+    }
+    55%{
+        transform: translate(1%)
+
+    }
+    100%{
+
+    }
+}
+
+#open-up2{
+    
+    animation-name: open-up2;
+    animation-duration: 1s;
+
+}
+
+@keyframes open-up2{
+    0%{
+        transform: translate(100%)
+
+    }
+    55%{
+        transform: translate(-1%)
+
+    }
+    100%{
+
+    }
+}
+
