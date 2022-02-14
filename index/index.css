@@ -91,9 +91,23 @@ a:hover{
     transition: 200ms ease;
 }
 
+#fade-in{
+    -webkit-animation-name:fade-in;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0%;
+    }
+    100%{}
+}
+
 #img-anim{
-    animation-name: img-anim;
-    animation-duration: 1.2s;
+    -webkit-animation-name: img-anim;
+    -webkit-animation-duration: 1.5s;
 }
 @keyframes img-anim{
     0%{
@@ -109,11 +123,10 @@ a:hover{
 
 #open-up{
     
-    animation-name: open-up;
-    animation-duration: 1s;
+    -webkit-animation-name: open-up;
+    -webkit-animation-duration: 1.2s;
 
 }
-
 
 @keyframes open-up{
     0%{
@@ -131,8 +144,8 @@ a:hover{
 
 #open-up2{
     
-    animation-name: open-up2;
-    animation-duration: 1s;
+    -webkit-animation-name: open-up2;
+    -webkit-animation-duration: 1.2s;
 
 }
 
