@@ -1,11 +1,8 @@
 body{
     color: rgba(255, 255, 255, 0.87);
     font-family:  'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    position: fixed;
-    left: 2%;
-    right: 2%;
-
+    font-size: 20px;
+    position: relative;
 }
 
 
@@ -59,13 +56,11 @@ body{
     padding-left: 2px;
     padding-right: 1px;
     padding-bottom: 3px;
-
-    text-align: justify;
 }
 
 .fieldfoot{
    position:absolute;
-   right: -1%;
+   right: 0%;
    bottom:  -10%;
 }
 
