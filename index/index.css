@@ -1,8 +1,10 @@
 body{
     color: rgba(255, 255, 255, 0.87);
-    font-family:  'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     position: relative;
+    display: grid;
+    justify-content: center;
 }
 
 
@@ -12,6 +14,9 @@ body{
 }
 
 
+title{
+
+}
 
 .field,table{
     display: flex;
@@ -24,8 +29,8 @@ body{
     background-color: slateblue;
     box-shadow: 1px 2px 2px rgb(20, 11, 36);
     
-    margin-left: 30px;
-    padding-left: 45px;
+    margin-left: 0px;
+    padding-left: 2px;
     padding-right: 2px;
 
     text-align: justify;
@@ -46,9 +51,9 @@ body{
 
 .field_det{
     display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    border: 0px;
+    flex-wrapf: center;
+    border: 0: wrap;
+    align-selpx;
     border-radius: 5px;
     background-color: slateblue;
     box-shadow: 1px 1px 2px rgb(20, 11, 36);
@@ -65,9 +70,8 @@ body{
 }
 
 .r-img{
-    position: absolute;
-    top: 20%;
-    left: 0%;
+    position: relative;
+    top: 30%;
     border-radius: 6px;
     border: 2px solid slateblue;
     
