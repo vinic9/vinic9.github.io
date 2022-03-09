@@ -1,5 +1,5 @@
 body{
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(26, 26, 26, 0.87);
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     position: relative;
@@ -9,13 +9,14 @@ body{
 
 
 .background{
-    background: -webkit-linear-gradient(top left, rgb(58, 45, 121), rgb(19, 18, 29))fixed;
+    background: -webkit-linear-gradient(top left, rgb(141, 125, 172), rgb(21, 21, 58))fixed;
 
 }
 
 
-title{
-
+.title, .title2{
+    color: lightgray;
+    mar
 }
 
 .field,table{
@@ -26,10 +27,11 @@ title{
     align-items: center;
     border: 0px solid ;
     border-radius: 5px;
-    background-color: slateblue;
-    box-shadow: 1px 2px 2px rgb(20, 11, 36);
+    background-color: lightgray;
+    box-shadow: 1px 2px 2px rgb(77, 77, 77);
     
-    margin-left: 0px;
+
+    margin: 0px, 0px, 0px,0px;
     padding-left: 2px;
     padding-right: 2px;
 
@@ -38,14 +40,14 @@ title{
     
 }
 
-.button{
+.prj{
     border: 0px solid;
     border-radius: 5px;
     padding-right: 5px;
     margin-left: 30px;
 
-    background-color: slateblue;
-    box-shadow: 1px 1px 2px rgb(20, 11, 36);
+    background-color: lightgray;
+    box-shadow: 1px 1px 2px rgb(144, 144, 145);
 }
 
 
@@ -61,6 +63,8 @@ title{
     padding-left: 2px;
     padding-right: 1px;
     padding-bottom: 3px;
+    background-color: lightgray;
+    box-shadow: 1px 2px 2px rgb(77, 77, 77);
 }
 
 .fieldfoot{
@@ -72,18 +76,20 @@ title{
 .r-img{
     position: relative;
     top: 30%;
+
+    margin: 1px px 1px 1px;
     border-radius: 6px;
-    border: 2px solid slateblue;
+    border: 2px solid lightgray;
     
 }
 
 a:link{
-    color: rgb(229, 224, 255);
+    color: rgb(91, 91, 92);
 
 }
 
 a:visited{
-    color: rgb(177, 155, 255);
+    color: rgb(156, 156, 156);
 }
 
 a:hover{
