@@ -1,90 +1,29 @@
 body{
-    color: rgba(26, 26, 26, 0.87);
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     position: relative;
     display: grid;
     justify-content: center;
+    
 }
 
 
 .background{
-    background: -webkit-linear-gradient(top left, rgb(141, 125, 172), rgb(21, 21, 58))fixed;
+    background: -webkit-linear-gradient(bottom , rgb(33, 25, 105), rgb(14, 14, 78))fixed;
 
 }
 
-
-.title, .title2{
-    color: lightgray;
-    mar
-}
-
-.field,table{
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid ;
-    border-radius: 5px;
-    background-color: lightgray;
-    box-shadow: 1px 2px 2px rgb(77, 77, 77);
-    
-
-    margin: 0px, 0px, 0px,0px;
-    padding-left: 2px;
-    padding-right: 2px;
-
-    text-align: justify;
-
-    
-}
-
-.prj{
-    border: 0px solid;
-    border-radius: 5px;
-    padding-right: 5px;
-    margin-left: 30px;
-
-    background-color: lightgray;
-    box-shadow: 1px 1px 2px rgb(144, 144, 145);
-}
-
-
-.field_det{
-    display: flex;
-    flex-wrapf: center;
-    border: 0: wrap;
-    align-selpx;
-    border-radius: 5px;
-    background-color: slateblue;
-    box-shadow: 1px 1px 2px rgb(20, 11, 36);
-    
-    padding-left: 2px;
-    padding-right: 1px;
-    padding-bottom: 3px;
-    background-color: lightgray;
-    box-shadow: 1px 2px 2px rgb(77, 77, 77);
-}
-
-.fieldfoot{
-   position:absolute;
-   right: 0%;
-   bottom:  -10%;
-}
 
 .r-img{
-    position: relative;
-    top: 30%;
-
-    margin: 1px px 1px 1px;
+    position: static;
+    margin-bottom: 5px;
     border-radius: 6px;
     border: 2px solid lightgray;
     
 }
 
 a:link{
-    color: rgb(91, 91, 92);
+    color: lime;
 
 }
 
