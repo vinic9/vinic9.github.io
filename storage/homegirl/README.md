@@ -1,6 +1,5 @@
-# Ελληνίκα Creation and creator. 
 ## Author: Vinicius Alves
-## Date: 08/ 02/ 2022
+## Date: 18/ 03/ 2022
 
  
 # The structure
