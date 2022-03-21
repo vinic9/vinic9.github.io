@@ -1,8 +1,0 @@
-//Opening line
-
-/*
-Multiline
- comment!
- */
-
- 
