@@ -1,0 +1,117 @@
+/*barra lateral */
+.scrollbar-Chrome::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .scrollbar-Firefox {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+  
+/* fontes */
+@font-face { 
+  
+	font-family: aero club como;
+	font-weight: bold;
+	src: url(/fonts/Aero\ Club\ Como.otf)
+			
+  }
+  
+  body{
+	background: -webkit-linear-gradient(#029a6f, darkcyan) fixed;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+  }
+
+/* Titulos */
+  label{
+	font-size: large;
+	font-family: aero club como;
+  }
+  
+
+  .btn, button{
+	  color: white;
+	background-color: #029a6f; 
+	border: 0px solid whitesmoke;
+	border-radius: 8px;
+	width: fit-content;
+	height: fit-content;
+  }
+
+  .email{
+	border: gray 1px solid;
+	border-radius: 4px;
+  }
+  
+  input:focus
+  {
+	opacity: 0.5;
+	transition: 0.5s;  
+	background-color: whitesmoke;  
+  }
+
+  /* Mouse sobre o botão */
+  .btn:hover{
+	opacity: 0.5;
+	transition: 0.5s;
+	background-color: darkcyan;
+  }
+    
+/*Titulo*/
+  #heading_title{
+	font-family: aero club como;
+	  color: whitesmoke;
+	  text-align: center;
+	  justify-content: center;
+	  align-items: center;
+	  align-self: center;
+  }
+  
+  /* Painél boostrap */
+  .panel{
+	border: #fff 0px solid;
+	border-radius: 16px;
+  } 
+  /* Painél boostrap cabeça */
+  .panel-heading{
+	border: #fff 0px solid;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom-left-radius: 8px ;
+	border-bottom-right-radius: 8px ;
+  }
+  
+  .container{
+	  justify-content: center;
+	  align-self: center;
+	  
+  }
+  
+  /* Painél pix */
+  .panel_pix{
+	display: none;
+}  /* Painél cdc(cartão de crédito) */
+  .panel_cdc{
+	  display: none;
+  }
+  
+  .qrcode-box{
+	  border: rgb(230, 230, 230) 1px solid;
+	  padding: 8px 8px 8px 8px;
+
+  }
+  
+  .icon{
+	  position:relative;	
+	  left: -8%;
+	  top: 10%;
+	  padding: 0,0,0,0;
+	  width: min-content;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: lightgray;
+	opacity: 1; /* Firefox */
+  }
+  
