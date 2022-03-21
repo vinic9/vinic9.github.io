@@ -10,12 +10,15 @@ body{
 
 
 
-
 footer{
     color: rgb(177, 155, 255);
 }
 
-
+.r-img:hover{
+    transition: 0.5s;
+    width:30% ;
+    height: 0% ;
+}
 
 .r-img{
     position: static;

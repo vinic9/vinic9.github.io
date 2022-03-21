@@ -115,3 +115,16 @@
 	opacity: 1; /* Firefox */
   }
   
+  #fade-in{
+    -webkit-animation-name:fade-in;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0%;
+    }
+    100%{}
+}
