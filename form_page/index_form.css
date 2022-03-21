@@ -1,0 +1,86 @@
+
+body{
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    background: -webkit-radial-gradient(snow, slateblue);
+    background-size: cover;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    display: inline;
+    bottom: 2%;
+    border: 0px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    box-shadow:0px 2px 5px;
+    padding: 4px;
+}
+
+
+#links {
+    position: fixed;
+    display: inline;
+    bottom: 2%;
+    right:  0.5%;
+    
+    border: 0px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    box-shadow:0px 2px 5px;
+    padding: 4px;
+}
+
+
+fieldset    {
+    position: relative;
+    display: inline;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    
+    border: 0px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    box-shadow:0px 2px 5px;
+    padding: 4px;
+}
+
+
+
+textarea, input[type="text"], input[type="email"], select{
+    border: 0px;
+    border-radius: 4px;
+    box-shadow:0px 0px 1px;
+    padding: 0.2px;
+    margin: 0.2px;
+}
+
+#input input:focus, textarea:focus,  input[type="email"]:focus, select:focus{
+    background-color:blanchedalmond;
+    
+}
+
+button{
+    float: right;
+
+    color: white;
+    border:0px solid;
+    box-shadow: 0px 2px 5px darkslategray;
+    background: darkslateblue;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 02.px;
+ 
+
+}
+
+button:hover{
+    background: slateblue;
+
+}

@@ -1,0 +1,21 @@
+.geral{
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    text-align: justify;
+    position:relative ;
+    left: 013%;
+    width: 078%; 
+}
+.exc{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    text-align:start;
+    color: darkslateblue;
+}  
+
+table, th, td {
+    border: 1px solid;
+  }
+
+#table1{
+    border-collapse:collapse;
+}
