@@ -16,32 +16,44 @@
 
   </head>
 
-<body id="fade-in" class="text-dark container scrollbar-Chrome scrollbar-Firefox" >
+<body id="fade-in" class=" scrollbar-Chrome scrollbar-Firefox" >
+
 <link rel="stylesheet" type="text/css" href="/ratata/main_css/main.css">
 
-        <!--Heading description-->
+<div class="ribbon">
+  <a href="#">Pendente</a>
+
+</div>
+<main class="container">  
+
+  <!-- description-->
     <div id="heading_title">
-        <h3 style="position: relative; text-align: center;">
+        <h3>
             <img width="48px"
     src="/ratata/img/icons/ratata_icon.png" 
     alt="ratata_icon">
 
     <b>RATATÁ</b> </h3>
+ 
+  
         <br>
     </div>
 
-<main>  
 
         <!--HEADING-->
     <div class="panel panel-default">
-      <div  class="panel-heading text-right">
+      <div  class="panel-heading text-center">
             <label> Informações do Rateio 
             </label>
-      </div>
+            
+              <div class="text-right"><!--btn hidden0-->
+              <button  id="hidden0_btn"></button> </div>
+    
+          </div> <!--Info rateior-->
       <form action="" method="get">
 
-        <div class="panel-body  text-left"  >
-   
+        <div class="panel-body  text-left first-panel"  >
+   <div class="row">
           <div class="col-sm-3"></div>
             <!--COL2-->
             <div class="col-sm-4">
@@ -65,12 +77,8 @@
           </div>
           
             <!--COL3-->
-          <div class="col-sm-3">
+            <div class="col-sm-3">
 
-              <div> <!-- Valor Individual-->
-                <h6>Valor Individual</h6>
-                <h5><b>R$ 42.00</b></h5>
-              </div>
 
               <div> <!--  CPF/CNPJ CEDENTE -->
                 <h6>CPF/CNPJ 
@@ -80,11 +88,20 @@
 
               <div> <!--EMAIL-->
                 <h6>Email</h6>
-                    <input required type="email" class="email form-group" placeholder="Digite seu e-mail" style="color: #1a1a1a;">
+                    <input required type="email" class="email form-group" placeholder="Digite seu e-mail">
               </div>
 
             </div>
-            
+          </div>
+          <hr>
+            <div class="row  text-center"> <!--Second Row-->
+              
+              <div> <!-- Valor Individual-->
+              <h5>Valor Individual</h6>
+              <h4><b>R$ 42.00</b></h5>
+              </div>
+
+            </div>
           </div>
         </div>
       </form> 
@@ -98,19 +115,19 @@
 
        <!--PIX -->
        <div class="panel panel-default ">
-          
-          <div class="panel-heading text-right">
-            <label> PIX 
-            <!-- button to hide-show -->
-            <button  class="btn text-center" id="hidden_btn"></button>
-            </label>
+         <div class="panel-heading text-left">
+           <label> PIX </label>
+           
+           <!-- button to hide-show -->
+            <div class="text-right"><!--btn hidden0-->
+              <button  id="hidden_btn"></button> </div>            
             </div>
-
-<!--QRCODE E PIX CODE ABAIXO-->
+            
+            <!--QRCODE E PIX CODE ABAIXO-->
            <div class="panel-body panel_pix" >
 
               <!-- pix code-->
-              <p id="myPix" hidden> !##CÓDIGO PIX TESTE##! </p>
+              <p id="myPix" hidden> !@@CÓDIGO PIX TESTE@@! </p>
       
       
               <div class="text-center justify-content">
@@ -133,12 +150,12 @@
 
         <!--INPUT CARTÃO DE CRÉDITO-->
     <div  class="panel panel-default">
-      <div class="panel-heading text-right">
-        <label>Cartão de crédito 
+      <div class="panel-heading text-left">
+        <label>Cartão de crédito </label>
           
-            <!-- button to hide-show -->
-            <button class="btn text-center" id="hidden2_btn"></button>
-        </label> </div>
+           <div class="text-right"> <!-- button to hide-show -->
+            <button id="hidden2_btn"></button> </div>
+          </div>
   <form action="" method="get">
         
       <div class="panel-body panel_cdc"  > 
@@ -173,7 +190,7 @@
 
           <div> <h4> <b> Dados do cartão </b>  </h4> </div>
 
-          <img width="12%" height="12%" src="/ratata/img/icons/credcard.png" alt="card_flags">
+          <img height="32px" src="/ratata/img/icons/credcard.png" alt="card_flags">
             
             <input id="txt1" type="text" maxlength="16"  class="form-control" placeholder= "Número do Cartão" onkeyup="autoTab(this, 'txt2')"  required >
           </div>

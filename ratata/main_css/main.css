@@ -13,19 +13,51 @@
   
 	font-family: aero club como;
 	font-weight: bold;
-	src: url(/ratata/fonts/AeroClubComo.otf)
+	src: url(/fonts/AeroClubComo.otf)
 			
   }
-  
-  body{
+
+  .container{
+	  width: 80%;
+  }
+  html,body{
 	background: -webkit-linear-gradient(#029a6f, darkcyan) fixed;
-	background-position: center;
 	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	overflow-x: hidden; /*prevents horizontal scrolling*/
+	
+
+  }
+
+
+  .ribbon {
+	background-color: #f4e242;
+	/* top left corner */
+	position: absolute;
+	right: -50px;
+	top: 20px;
+	/* for 45 deg rotation */
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+			transform: rotate(45deg);
+  }
+
+
+  .ribbon a {
+
+	color: #1a1a1a;
+	display: block;
+	font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 1px 0;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	/* for creating shadow */
   }
 
 /* Titulos */
   label{
-	font-size: large;
+	  font-size: large;
 	font-family: aero club como;
   }
   
@@ -39,7 +71,44 @@
 	height: fit-content;
   }
 
+  #hidden0_btn{
+	  background-image:url(/ratata/img/icons/btn_arrow.png);
+	  background-color: whitesmoke; 
+	  background-size: cover;
+	  width: 34px;
+	  height: 32px;
+	  position: relative;
+	  top: -36px;
+
+  } 
+  #hidden0_btn:hover, #hidden_btn:hover, #hidden2_btn:hover{
+	  opacity: 0.5;
+	  transition: 0.5s;
+	  background-color: whitesmoke;
+  }
+  
+  #hidden_btn{
+	background-image:url(/ratata/img/icons/btn_arrow.png);
+	background-color: whitesmoke; 
+	background-size: cover;
+	width: 34px;
+	height: 32px;
+	position: relative;
+	top: -36px;
+  } 
+
+  #hidden2_btn{
+	background-image:url(/ratata/img/icons/btn_arrow.png);
+	background-color: whitesmoke; 
+	background-size: cover;
+	width: 34px;
+	height: 32px;
+	position: relative;
+	top: -36px;
+  } 
+
   .email{
+	color: #1a1a1a;
 	border: gray 1px solid;
 	border-radius: 4px;
   }
@@ -88,6 +157,9 @@
 	  
   }
   
+  .first-panel{
+	  display: none;
+  }
   /* Painél pix */
   .panel_pix{
 	display: none;
