@@ -25,10 +25,10 @@ var panel_pix = document.querySelector('.panel_pix');
 
 btn.addEventListener('click', function()
 {
-  if (panel_pix.style.display === "none") {
-    panel_pix.style.display = "block";
-  } else {
+  if (panel_pix.style.display === "block") {
     panel_pix.style.display = "none";
+  } else {
+    panel_pix.style.display = "block";
   }
 });
 
@@ -38,10 +38,10 @@ var panel_cdc = document.querySelector('.panel_cdc');
 
 btn.addEventListener('click', function()
 {
-  if (panel_cdc.style.display === "none") {
-    panel_cdc.style.display = "block";
-  } else {
+  if (panel_cdc.style.display === "block") {
     panel_cdc.style.display = "none";
+  } else {
+    panel_cdc.style.display = "block";
   }
 })
 

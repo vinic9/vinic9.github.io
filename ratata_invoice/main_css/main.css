@@ -57,7 +57,7 @@
 
 /* Titulos */
   label{
-	  font-size: 17px;
+	font-size: large;
 	font-family: aero club como;
   }
   
@@ -75,12 +75,13 @@
 	  background-image:url(/ratata_invoice/img/icons/btn_arrow.png);
 	  background-color: whitesmoke; 
 	  background-size: cover;
+	  
+	  position: absolute;
+	  right: 10%;
+
 	  width: 34px;
 	  height: 32px;
-	  position: relative;
-	  top: -36px;
-	  right: -10px;
-
+  }
 
   } 
   #hidden0_btn:hover, #hidden_btn:hover, #hidden2_btn:hover{
@@ -127,22 +128,9 @@
   }
   
   .first-panel{
-	  display: none;
+	  display: block;
   }
-  /* Painél pix */
-  .panel_pix{
-	display: none;
-}  /* Painél cdc(cartão de crédito) */
-  .panel_cdc{
-	  display: none;
-  }
-  
-  .qrcode-box{
-	  border: rgb(230, 230, 230) 1px solid;
-	  padding: 8px 8px 8px 8px;
 
-  }
-  
   .icon{
 	  position:relative;	
 	  left: -8%;
@@ -159,8 +147,7 @@
   #fade-in{
     -webkit-animation-name:fade-in;
     -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease;
-
+	-webkit-animation-timing-function: ease;
 }
 
 @keyframes fade-in{

@@ -72,10 +72,12 @@
 	  background-image:url(/ratata/img/icons/btn_arrow.png);
 	  background-color: whitesmoke; 
 	  background-size: cover;
-	  width: 34px;
+	  
+	  position: absolute;
+	  right: 10%;
+
+	  width: 32px;
 	  height: 32px;
-	  position: relative;
-	  top: -36px;
 
   } 
   #hidden0_btn:hover, #hidden_btn:hover, #hidden2_btn:hover{
@@ -88,22 +90,24 @@
 	background-image:url(/ratata/img/icons/btn_arrow.png);
 	background-color: whitesmoke; 
 	background-size: cover;
-	width: 34px;
-	height: 32px;
-	position: relative;
-	top: -36px;
-  } 
+	
+		position: absolute;
+	right: 10%;
 
+	width: 32px;
+	height: 32px;
+}
   #hidden2_btn{
 	background-image:url(/ratata/img/icons/btn_arrow.png);
 	background-color: whitesmoke; 
 	background-size: cover;
-	width: 34px;
-	height: 32px;
-	position: relative;
-	top: -36px;
-  } 
+	
+	position: absolute;
+	right: 10%;
 
+	width: 32px;
+	height: 32px;
+}
   .email{
 	color: #1a1a1a;
 	border: gray 1px solid;
@@ -155,7 +159,7 @@
   }
   
   .first-panel{
-	  display: none;
+	  display: block;
   }
   /* Painél pix */
   .panel_pix{
