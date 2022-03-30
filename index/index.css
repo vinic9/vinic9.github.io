@@ -1,13 +1,9 @@
-body{
+.body_class{
     font-family: 'Anonymous Pro', monospace;
-    font-size: 18px;
-
-    
-    background: -webkit-radial-gradient(bottom , rgb(33, 25, 105), rgb(14, 14, 78))fixed;
-
-
+    font-size: 14px;
+    color: whitesmoke;
+    background: -webkit-radial-gradient(bottom , rgb(33, 25, 105), rgb(14, 14, 78)) fixed;
 }
-
 
 
 footer{

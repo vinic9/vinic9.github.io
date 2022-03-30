@@ -91,88 +91,89 @@
       </div>
 
 
-    </form>
-    <form action="" method="get">
+  </form>
+  <form action="" method="get">
 
-      <!--INPUT CARTÃO DE CRÉDITO-->
-      <div class="panel panel-default">
-        <div class="panel-heading text-center">
-          <label>Cartão de crédito <button id="creditcard_btn"></button></label>
-        </div>
-
-
-        <div class="panel-body cdc_panel">
-          <!--INPUT ENDEREÇO-->
-          <div>
-            <div> <label>Endereço de Cobrança</label> </div>
-
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Endereço" required>
-            </div>
-
-            <div class="form-group">
-              <input type="number" minlength="8" class="form-control" placeholder="Número" required>
-            </div>
-
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Bairro" required>
-            </div>
-
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Cidade" required>
-            </div>
-
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Estado" required>
-            </div>
-          </div>
-
-          <!--Dados do cartão-->
-          <div>
-            <div class="form-group">
-
-              <div> <label> Dados do cartão </label> 
-                <img height="32px" src="/ratata_invest/img/icons/credcard.png" alt="card_flags"></div>
-
-
-              <input id="txt1" type="text" maxlength="16" class="form-control" placeholder="Número do Cartão"
-                onkeyup="autoTab(this, 'txt2')" required>
-            </div>
-
-            <!--Nome -->
-            <div class="form-group">
-              <input id="txt2" type="text" maxlength="86" class="form-control" placeholder="Nome do Titular" required>
-            </div>
-
-            <!--CPF -->
-            <div class="form-group">
-              <input id="txt3" type="text" maxlength="11" class="form-control" placeholder="CPF do Titular"
-                onkeyup="autoTab(this, 'txt4')" required>
-            </div>
-
-            <!--Expiração -->
-            <div class="form-group">
-              <input id="txt4" type="text" maxlength="2" class="form-control" placeholder="Mês de Expiração"
-                onkeyup="autoTab(this, 'txt5')" required>
-            </div>
-
-            <div class="form-group">
-              <input id="txt5" type="text" maxlength="2" class="form-control" placeholder="Ano de Expiração"
-                onkeyup="autoTab(this, 'txt6')" required>
-            </div>
-
-            <div class="form-group">
-              <input id="txt6" type="text" maxlength="4" class="form-control" placeholder="CVV" required>
-            </div>
-          </div>
-          <!--Dados do cartão end-->
-          <div class="text-center">
-            <input type="submit" class="btn text-light" value="Pagar" required>
-          </div>
-        </div>
-        <!--panel-body end-->
+    <!--INPUT CARTÃO DE CRÉDITO-->
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <label>Cartão de crédito <button id="creditcard_btn"></button></label>
       </div>
-      <!--panel-default end-->
+
+
+      <div class="panel-body cdc_panel">
+        <!--INPUT ENDEREÇO-->
+        <div>
+          <div> <label>Endereço de Cobrança</label> </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Endereço" required>
+          </div>
+
+          <div class="form-group">
+            <input type="number" minlength="8" class="form-control" placeholder="Número" required>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Bairro" required>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Cidade" required>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Estado" required>
+          </div>
+        </div>
+
+        <!--Dados do cartão-->
+        <div>
+          <div class="form-group">
+
+            <div> <label> Dados do cartão </label>
+              <img height="32px" src="/ratata_invest/img/icons/credcard.png" alt="card_flags">
+            </div>
+
+
+            <input id="txt1" type="text" maxlength="16" class="form-control" placeholder="Número do Cartão"
+              onkeyup="autoTab(this, 'txt2')" required>
+          </div>
+
+          <!--Nome -->
+          <div class="form-group">
+            <input id="txt2" type="text" maxlength="86" class="form-control" placeholder="Nome do Titular" required>
+          </div>
+
+          <!--CPF -->
+          <div class="form-group">
+            <input id="txt3" type="text" maxlength="11" class="form-control" placeholder="CPF do Titular"
+              onkeyup="autoTab(this, 'txt4')" required>
+          </div>
+
+          <!--Expiração -->
+          <div class="form-group">
+            <input id="txt4" type="text" maxlength="2" class="form-control" placeholder="Mês de Expiração"
+              onkeyup="autoTab(this, 'txt5')" required>
+          </div>
+
+          <div class="form-group">
+            <input id="txt5" type="text" maxlength="2" class="form-control" placeholder="Ano de Expiração"
+              onkeyup="autoTab(this, 'txt6')" required>
+          </div>
+
+          <div class="form-group">
+            <input id="txt6" type="text" maxlength="4" class="form-control" placeholder="CVV" required>
+          </div>
+        </div>
+        <!--Dados do cartão end-->
+        <div class="text-center">
+          <input type="submit" class="btn text-light" value="Pagar" required>
+        </div>
+      </div>
+      <!--panel-body end-->
+    </div>
+    <!--panel-default end-->
 
   </form>
   </main>
