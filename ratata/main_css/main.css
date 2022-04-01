@@ -53,8 +53,8 @@
   }
 
 /* Titulos */
-  label{
-	  font-size: large;
+ label, h3{
+	font-size: large;
 	font-family: aero club como;
   }
   
@@ -130,7 +130,6 @@
     
 /*Titulo*/
   #heading_title{
-	font-family: aero club como;
 	  color: whitesmoke;
 	  text-align: center;
 	  justify-content: center;
