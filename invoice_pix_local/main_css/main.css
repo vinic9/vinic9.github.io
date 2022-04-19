@@ -1,4 +1,4 @@
-/* LateralBar */
+/*barra lateral */
 .scrollbar-Chrome::-webkit-scrollbar {
 	display: none;
   }
@@ -8,20 +8,23 @@
 	scrollbar-width: none;  /* Firefox */
   }
   
-/* fonts */
+/* fontes */
 @font-face { 
   
 	font-family: aero club como;
 	font-weight: bold;
-	src: url(/ratata_invest/fonts/AeroClubComo.otf)
+	src: url(/fonts/AeroClubComo.otf)
 			
   }
-  
+
   html,body{
-	background: -webkit-linear-gradient(#029a6f, darkcyan) fixed;
+	background-color: #039f72;
 	font-family: 'Montserrat', sans-serif;
+
+	flex-wrap: wrap;
+
 	position: relative;
-	overflow-x: hidden; /*hide and prevents horizontal scrolling*/
+	overflow-x: hidden; /*prevents horizontal scrolling*/
 	
 
   }
@@ -31,8 +34,8 @@
 	background-color: #f4e242;
 	/* top left corner */
 	position: absolute;
-	right: -50px;
-	top: 20px;
+	right: -52px;
+	top: 12px;
 	/* for 45 deg rotation */
 	-webkit-transform: rotate(45deg);
 	   -moz-transform: rotate(45deg);
@@ -46,79 +49,44 @@
 	display: block;
 	font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 1px 0;
-	padding: 10px 50px;
+	padding: 10px 50px 10px  50px;
 	text-align: center;
 	text-decoration: none;
 	/* for creating shadow */
   }
 
-/* Titles */
-  h2, label, h3{
-	font-size: 16px;
-	font-family: aero club como;
+/* Titulos */
+  label,h3{
+	  color: whitesmoke;
+	  font-size: 20px;
+	  font-family: aero club como;
   }
-
+  
 
   .btn, button{
-	  color: white;
-	background-color: #029a6f; 
+	color: white;
+	background-color: #039f72; 
 	border: 0px solid whitesmoke;
 	border-radius: 8px;
-	text-align: center;
-	width: 132px;
-	height: 48px;
-
+	padding: 12px 14px 12px 14px ;
   }
- 
+
   #firstpanel_btn{
-	  background-image:url(/ratata_invest/img/icons/btn_arrow.png);
+	  background-image:url(/img/icons/btn_arrow.png);
 	  background-color: whitesmoke; 
 	  background-size: cover;
 	  
 	  position: absolute;
 	  right: 10%;
-	  top: 100px;
-  
+
 	  width: 32px;
 	  height: 32px;
-
-
-  } 
-
-  #creditcard_btn{
-	background-image:url(/ratata_invest/img/icons/btn_arrow.png);
-	background-color: whitesmoke; 
-	background-size: cover;
-	
-	position: absolute;
-	right: 10%;
-
-	
-	width: 32px;
-	height: 32px;
-
-  } 
-
- input, .email, .list_selection{
-
-	color: #818181;
-	border: rgb(196, 196, 196) 1px solid;
-	border-radius: 4px;
   }
-
-
-.form-control:focus, select:focus,input:focus{
-	opacity: 0.5;
-	transition: 0.5s;  
-	background-color: whitesmoke; 
-	border: #818181 1px solid;
-  }
-
   /* Mouse sobre o botão */
-  .btn:hover{
+  #firstpanel_btn:hover{
 	opacity: 0.5;
 	transition: 0.5s;
-	background-color: darkcyan;
+	background-color: whitesmoke;
   }
     
 /*Titulo*/
@@ -133,14 +101,13 @@
   
   /* Painél boostrap */
   .panel{
+	background-color: #16a77e;
 	border: #fff 0px solid;
 	border-radius: 16px;
   } 
-
   /* Painél boostrap cabeça */
   .panel-heading{
 	
-	display: grid;
 	border: #fff 0px solid;
 	border-top-left-radius: 16px;
 	border-top-right-radius: 16px;
@@ -157,11 +124,7 @@
   .first_panel{
 	  display: block;
   }
-
-  /* Painél cdc(cartão de crédito) */
-  .cdc_panel{
-	  display: none;
-  }
+  
   
   .icon{
 	  position:relative;	
@@ -177,13 +140,13 @@
   }
   
   #fade_in{
-    -webkit-animation-name:fade-in;
+    -webkit-animation-name:fade_in;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: ease;
 
 }
 
-@keyframes fade-in{
+@keyframes fade_in{
     0%{
         opacity: 0%;
     }
