@@ -1,4 +1,4 @@
-/*barra lateral */
+/* LateralBar */
 .scrollbar-Chrome::-webkit-scrollbar {
 	display: none;
 }
@@ -10,12 +10,12 @@
 	/* Firefox */
 }
 
-/* fontes */
+/* fonts */
 @font-face {
 
 	font-family: aero club como;
 	font-weight: bold;
-	src: url(/invoice_ratata_local/fonts/AeroClubComo.otf)
+	src: url(/invoice_investiment_net/fonts/AeroClubComo.otf)
 }
 
 html,
@@ -25,7 +25,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	overflow-x: hidden;
-	/*prevents horizontal scrolling*/
+	/*hide and prevents horizontal scrolling*/
 
 
 }
@@ -56,7 +56,7 @@ body {
 	/* for creating shadow */
 }
 
-/* Titulos */
+/* Titles */
 h3,
 label {
 	color: whitesmoke;
@@ -68,7 +68,7 @@ label {
 .btn,
 button {
 	color: white;
-	background-color: #039f72;
+	background-color: #029a6f;
 	border: 0px solid whitesmoke;
 	border-radius: 8px;
 	text-align: center;
@@ -78,12 +78,13 @@ button {
 }
 
 #firstpanel_btn {
-	background-image: url(/invoice_ratata_local/img/icons/btn_arrow.png);
+	background-image: url(/invoice_investiment_net/img/icons/btn_arrow.png);
 	background-color: #16a77e;
 	background-size: cover;
 
 	position: absolute;
-	right: 10%;
+	right: 13%;
+	top: 100px;
 
 	width: 32px;
 	height: 32px;
@@ -91,35 +92,27 @@ button {
 
 }
 
-#firstpanel_btn:hover,
-#pixpanel_btn:hover,
-#creditcard_btn:hover {
-	opacity: 0.5;
-	transition: 0.5s;
-	background-color: #16a77e;
-}
 
-#pixpanel_btn {
-	background-image: url(/invoice_ratata_local/img/icons/btn_arrow.png);
+#investidor_btn {
+	background-image: url(/invoice_investiment_net/img/icons/btn_arrow.png);
 	background-color: #16a77e;
 	background-size: cover;
 
 	position: absolute;
-	right: 10%;
+	right: 13%;
 
 
 	width: 32px;
 	height: 32px;
-
 }
 
 #creditcard_btn {
-	background-image: url(/invoice_ratata_local/img/icons/btn_arrow.png);
+	background-image: url(/invoice_investiment_net/img/icons/btn_arrow.png);
 	background-color: #16a77e;
 	background-size: cover;
 
 	position: absolute;
-	right: 10%;
+	right: 13%;
 
 
 	width: 32px;
@@ -127,15 +120,23 @@ button {
 
 }
 
-.email {
-	color: whitesmoke;
+.list_selection {
+
+	border-radius: 16px;
+
 	background-color: #16a77e;
+	color: whitesmoke;
+
 	border: #49b99a 2px solid;
 	border-radius: 16px;
 
-	padding: 2px 2px 2px 2px;
-}
+	width: 72%;
+	margin-top: 6px;
+	margin-bottom: 6px;
 
+	padding: 0px 6px 0px 6px;
+
+}
 
 input {
 	background-color: #16a77e;
@@ -173,22 +174,53 @@ input[placeholder="Nome do Titular"] {
 	width: 97.4%;
 }
 
-input[placeholder="CPF do Titular"] {
+input[placeholder="Nome Completo"] {
 	width: 97.4%;
 }
 
+input[placeholder="CPF"] {
+	width: 53.4%;
+}
+
+input[placeholder="RG"] {
+	width: 43.4%;
+}
+
 input[placeholder="Mês de Expiração"] {
-	width: 44%;
+	width: 43.6%;
 }
 
 input[placeholder="Ano de Expiração"] {
-	width: 44%;
+	width: 82%;
 }
 
 input[placeholder="CVV"] {
-	width: 25%;
+	width: 14.4%;
 }
 
+/* Estilizar checkbox */
+.checkbox_custom {
+	text-align: left;
+	margin-left: 2%;
+
+}
+
+input[type="checkbox"] {
+
+	cursor: pointer;
+
+	margin: 0% 0.4% 0% 0%;
+	height: 16px;
+	width: 16px;
+
+	background-color: #039f72;
+	border-radius: 2px;
+
+
+}
+
+
+select:focus,
 input:focus {
 	opacity: 0.5;
 	transition: 0.5s;
@@ -197,16 +229,20 @@ input:focus {
 
 }
 
-
-::placeholder {
-	color: #dbdbdb;
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-text-fill-color: whitesmoke !important;
+	-webkit-box-shadow: 0 0 0 30px #16a77e inset !important;
 }
+
 
 /* Mouse sobre o botão */
 .btn:hover {
 	opacity: 0.5;
 	transition: 0.5s;
-	background-color: #039f72;
+	background-color: darkcyan;
 }
 
 /*Titulo*/
@@ -221,6 +257,7 @@ input:focus {
 
 /* Painél boostrap */
 .panel {
+
 	background-color: #16a77e;
 	border: #fff 0px solid;
 	border-radius: 16px;
@@ -228,38 +265,27 @@ input:focus {
 
 /* Painél boostrap cabeça */
 .panel-heading {
-	display: grid;
-	border: #fff 0px solid;
+
+	border: #029a6f 0px solid;
 	border-top-left-radius: 16px;
 	border-top-right-radius: 16px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
 
-.container {
-	justify-content: center;
-	align-self: center;
-
-}
-
 .first_panel {
 	display: block;
 }
 
-/* Painél pix */
-.panel_pix {
+
+/* Painél idv(info do investidor) */
+.idv_panel {
 	display: none;
 }
 
 /* Painél cdc(cartão de crédito) */
 .cdc_panel {
 	display: none;
-}
-
-.qrcode_box {
-	border: #dbdbdb 1px solid;
-	padding: 8px 8px 8px 8px;
-
 }
 
 .icon {
@@ -270,21 +296,21 @@ input:focus {
 	width: min-content;
 }
 
-.email::placeholder {
+::placeholder {
 	/* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: dbdbdb;
+	color: lightgray;
 	opacity: 1;
 	/* Firefox */
 }
 
 #fade_in {
-	-webkit-animation-name: fade_in;
+	-webkit-animation-name: fade-in;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: ease;
 
 }
 
-@keyframes fade_in {
+@keyframes fade-in {
 	0% {
 		opacity: 0%;
 	}

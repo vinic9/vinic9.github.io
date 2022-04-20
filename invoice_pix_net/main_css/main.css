@@ -13,7 +13,7 @@
   
 	font-family: aero club como;
 	font-weight: bold;
-	src: url(/invoice_pix_local/fonts/AeroClubComo.otf)
+	src: url(/invoice_pix_net/fonts/AeroClubComo.otf)
 			
   }
 
@@ -72,7 +72,7 @@
   }
 
   #firstpanel_btn{
-	  background-image:url(/invoice_pix_local/img/icons/btn_arrow.png);
+	  background-image:url(/invoice_pix_net/img/icons/btn_arrow.png);
 	  background-color: whitesmoke; 
 	  background-size: cover;
 	  
